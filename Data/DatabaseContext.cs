@@ -1,3 +1,4 @@
+using AltanDenemeC.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AltanDenemeC.Data
@@ -6,7 +7,9 @@ namespace AltanDenemeC.Data
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> opt) : base(opt)
         {
-            
+
         }
+
+        public DbSet<Posts> Posts {get;set;}
     }
 }
