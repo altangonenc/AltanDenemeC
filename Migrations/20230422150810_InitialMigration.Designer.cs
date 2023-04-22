@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AltanDenemeC.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230422123156_InitialMigration")]
+    [Migration("20230422150810_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -24,7 +24,7 @@ namespace AltanDenemeC.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("AltanDenemeC.Models.Posts", b =>
+            modelBuilder.Entity("AltanDenemeC.Models.Users", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace AltanDenemeC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Posts");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

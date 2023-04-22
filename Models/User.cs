@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AltanDenemeC.Models
 {
-    public class Posts
+    public class Users
     {
        [Required]
        public int UserId {get; set;}

@@ -10,6 +10,6 @@ namespace AltanDenemeC.Data
 
         }
 
-        public DbSet<Posts> Posts {get;set;}
+        public DbSet<Users> Users {get;set;}
     }
 }
