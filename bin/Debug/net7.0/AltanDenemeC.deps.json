@@ -12,6 +12,8 @@
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -205,6 +207,11 @@
             "assemblyVersion": "7.0.4.0",
             "fileVersion": "7.0.423.11504"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.4"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -402,6 +409,31 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "Npgsql/7.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Npgsql.dll": {
+            "assemblyVersion": "7.0.2.0",
+            "fileVersion": "7.0.2.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.4",
+          "Npgsql": "7.0.2"
+        },
+        "runtime": {
+          "lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.3.0"
           }
         }
       },
@@ -774,6 +806,13 @@
       "path": "microsoft.entityframeworkcore.sqlserver/7.0.4",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-58hDB+ENGisuSjJBl1RBHL9qzFJTukFSQFl/wCU8/3ApcOH/rPrRG4PWThiJTmfHRmh8H8HExdYbtkv7wa7BLg==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
       "serviceable": true,
@@ -955,6 +994,20 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Npgsql/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/k12hfmg4PI0IU2UTLN6n0s/FKUfox8+RdWtzgADYZoyks7GH82WLyXm27eeqatsi/nmiK9lO3HyULlTD87szg==",
+      "path": "npgsql/7.0.2",
+      "hashPath": "npgsql.7.0.2.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iVz7vcPAZt6iBSjJ8XyjtIP19jilNOJqTiTCs2UHWhpTyP+FbNhnzCBE/oyD3n49McmmenjKpva+yTy7q1z/g==",
+      "path": "npgsql.entityframeworkcore.postgresql/7.0.3",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

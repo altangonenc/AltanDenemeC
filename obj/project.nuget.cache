@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TGIzDmmsjRt5b3b0Qm8rllxJnWKQ6ILGY1XAIL5Ut3FE9ZqzvWkC7Y3UVQNFc+UokLdaMV/bXD9KFFnW4n1XNg==",
+  "dgSpecHash": "dbYiD4MTIMPdT3agxG/x25OS+5mObQxuwozpuxg0fSkkVtDV0AQfQCwJ60Q4t0ylyfN5jNMAwpmS3aSaRQx0Lg==",
   "success": true,
   "projectFilePath": "C:\\Users\\altan\\Desktop\\RestfulAPI\\AltanDenemeC\\AltanDenemeC.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.4\\microsoft.entityframeworkcore.design.7.0.4.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.4\\microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.4\\microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
+    "C:\\Users\\altan\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.4\\microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
@@ -44,6 +45,8 @@
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\altan\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\altan\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
