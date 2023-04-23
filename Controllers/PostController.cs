@@ -3,6 +3,7 @@ using AltanDenemeC.Models;
 using AltanDenemeC.Repository;
 using AltanDenemeC.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AltanDenemeC.Controllers
 {
@@ -11,13 +12,12 @@ namespace AltanDenemeC.Controllers
     [Route("api/v1")]
     public class PostController:ControllerBase
     {
+        private readonly IUserService _userService;
 
-        private readonly UserService _userService;
-        public PostController()
+        public PostController(IUserService userService)
         {
-            _userService = new UserService;
+            _userService = userService;
         }
-
         [HttpGet]
         public ActionResult GetAll()
         {

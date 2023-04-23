@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AltanDenemeC.Services
 {
-    []
     public class UserService
     {
         private readonly EfRepository<Users> _efRepo;

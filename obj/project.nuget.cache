@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dbYiD4MTIMPdT3agxG/x25OS+5mObQxuwozpuxg0fSkkVtDV0AQfQCwJ60Q4t0ylyfN5jNMAwpmS3aSaRQx0Lg==",
+  "dgSpecHash": "yu+D15i8kwLXPqwkWiDsR4TK8HPhLkA9+qIGdpxdW8SAMGR42/v2T8+QMhP8kvEEVzABqQNluMQCW0VDWCOOZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\altan\\Desktop\\RestfulAPI\\AltanDenemeC\\AltanDenemeC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\altan\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\altan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\altan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
