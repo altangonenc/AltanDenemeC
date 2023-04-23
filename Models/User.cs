@@ -14,5 +14,7 @@ namespace AltanDenemeC.Models
        [Required]
        [MaxLength(500)]
        public string Body {get; set;}
+       [EmailAddress]
+       public string EmailAddress{get;set;}
     }
 }
