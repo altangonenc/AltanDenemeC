@@ -74,5 +74,18 @@ namespace AltanDenemeC.Repository
             result = response.Entity;
             return result;
         }
+
+        public bool DeleteAll()
+        {
+            try
+            {
+                _dbSet.RemoveRange(_dbSet);
+                _context.SaveChanges(); 
+                return true;
+            } catch(Exception ex)
+            {
+                return false;    
+            }
+        }
     }
 }
