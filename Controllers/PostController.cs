@@ -7,16 +7,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AltanDenemeC.Controllers
 {
-
     [ApiController]
     [Route("api/v1")]
-    public class PostController:ControllerBase
+    public class PostController : ControllerBase
     {
         private readonly IUserService _userService;
 
-        public PostController(IUserService userService)
+        public PostController(IUserService iUserService)
         {
-            _userService = userService;
+            _userService = iUserService;
         }
         [HttpGet]
         public ActionResult GetAll()

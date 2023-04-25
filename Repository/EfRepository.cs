@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AltanDenemeC.Repository
 {
-    public class EfRepository<T> : IGenericRepository<T> where T : class, new()
+    public class EfRepository<T> : IEfRepository<T>, IGenericRepository<T> where T : class, new()
     {
 
         private readonly DatabaseContext _context;

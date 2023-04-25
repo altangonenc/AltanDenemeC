@@ -1,4 +1,6 @@
 using AltanDenemeC.Data;
+using AltanDenemeC.Repository;
+using AltanDenemeC.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped(typeof(IEfRepository<>), typeof(EfRepository<>));
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddDbContext < DatabaseContext > (o => o.UseNpgsql(builder.Configuration.GetConnectionString("DatabaseConnection")));
 
 var app = builder.Build();

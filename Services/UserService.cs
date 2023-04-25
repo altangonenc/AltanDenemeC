@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AltanDenemeC.Services
 {
-    public class UserService
+    public class UserService : IUserService
     {
-        private readonly EfRepository<Users> _efRepo;
-        public UserService(EfRepository<Users> efRepository)
+        private readonly IEfRepository<Users> _efRepo;
+        public UserService(IEfRepository<Users> efRepository)
         {
             _efRepo = efRepository;    
         }

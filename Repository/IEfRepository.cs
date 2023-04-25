@@ -1,6 +1,6 @@
 namespace AltanDenemeC.Repository
 {
-    public interface IEfRepository<T> : IGenericRepository<T> where T : class, new()
+    public interface IEfRepository<T>
     {
         public T Add(T entity);
 
